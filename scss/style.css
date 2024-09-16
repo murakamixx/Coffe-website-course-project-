@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Jost";
+  src: url(../fonts/Jost-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(27, 27, 29);
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background: rgb(238, 239, 241);
+}
+.header__ellipse {
+  position: absolute;
+  width: 572px;
+  height: 788px;
+  left: -116px;
+  top: -101px;
+  filter: blur(500px);
+  background: rgba(255, 255, 255, 0.8);
+}
+.header .navigation {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  gap: 24.861111111vw;
+  align-items: center;
+}
+.header .navigation__logo {
+  padding: 3px 0px 3px 0px;
+  width: 8.75vw;
+}
+.header .navigation__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.77777vw;
+}
+.header .navigation__element {
+  display: flex;
+  align-items: center;
+}
+.header .link__container {
+  margin-right: -1.388888vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.8888vw;
+  height: 56px;
+  border-radius: 63px;
+  box-shadow: 0px 30px 60px 0px rgba(163, 168, 179, 0.15);
+  background: rgb(255, 255, 255);
+}
+.header .link__container__black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14.4444vw;
+  height: 56px;
+  border-radius: 63px;
+  box-shadow: 0px 30px 60px 0px rgba(163, 168, 179, 0.15);
+  background: rgb(27, 27, 29);
+}
+.header .link__container__black p {
+  color: rgb(27, 27, 29);
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */
