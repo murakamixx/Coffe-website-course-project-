@@ -63,7 +63,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 3.8888vw;
-  height: 56px;
+  height: 3.888vw;
   border-radius: 63px;
   box-shadow: 0px 30px 60px 0px rgba(163, 168, 179, 0.15);
   background: rgb(255, 255, 255);
@@ -73,7 +73,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 14.4444vw;
-  height: 56px;
+  height: 3.8888vw;
   border-radius: 63px;
   box-shadow: 0px 30px 60px 0px rgba(163, 168, 179, 0.15);
   background: rgb(27, 27, 29);
@@ -92,6 +92,7 @@ a {
 
 .main {
   padding-top: 123px;
+  padding-bottom: 131px;
   background: rgb(238, 239, 241);
   display: flex;
   justify-content: flex-start;
@@ -193,7 +194,7 @@ a {
   align-items: flex-start;
   gap: 12px;
   border-radius: 24px;
-  width: 258px;
+  width: 17.916666vw;
   height: 140px;
   background: #fff;
 }/*# sourceMappingURL=style.css.map */
