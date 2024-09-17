@@ -87,4 +87,26 @@ a {
   text-align: left;
   line-height: 26px;
   color: rgb(255, 255, 255);
+}
+
+.main {
+  background: rgb(238, 239, 241);
+}
+.main text__header {
+  color: rgb(27, 27, 29);
+  font-family: Jost;
+  font-size: 124px;
+  font-weight: 800;
+  line-height: 140px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main text__title {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

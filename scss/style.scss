@@ -48,7 +48,8 @@ a {
         justify-content: space-around;
         gap: 24.861111111vw;
         align-items: center;
-        &__logo{
+
+        &__logo {
             padding: 3px 0px 3px 0px;
             width: 8.75vw;
         }
@@ -86,7 +87,8 @@ a {
                 border-radius: 63px;
                 box-shadow: 0px 30px 60px 0px rgba(163, 168, 179, 0.15);
                 background: rgb(27, 27, 29);
-                p{
+
+                p {
                     @include navigationfont();
                     line-height: 26px;
                     color: rgb(255, 255, 255);
@@ -94,5 +96,32 @@ a {
             }
         }
 
+    }
+
+}
+
+.main {
+    background: rgb(238, 239, 241);
+
+    text {
+        &__header {
+            color: rgb(27, 27, 29);
+            font-family: Jost;
+            font-size: 124px;
+            font-weight: 800;
+            line-height: 140px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        &__title {
+            color: rgb(100, 100, 106);
+            font-family: Jost;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
     }
 }
