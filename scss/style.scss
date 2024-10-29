@@ -307,6 +307,7 @@ a {
 
         .button {
             align-self: center;
+
             &__container {
                 width: 15.625vw;
                 height: 60px;
@@ -328,25 +329,86 @@ a {
             }
         }
     }
-    .cards__element:nth-child(1) .cards__header{
+
+    .cards__element:nth-child(1) .cards__header {
         padding-left: 2.777vw;
     }
-    .cards__element:nth-child(1) .cards__title{
+
+    .cards__element:nth-child(1) .cards__title {
         padding-left: 2.777vw;
     }
-    .cards__element:nth-child(2) .cards__header{
+
+    .cards__element:nth-child(2) .cards__header {
         padding-left: 2.1527vw;
     }
-    .cards__element:nth-child(2) .cards__title{
+
+    .cards__element:nth-child(2) .cards__title {
         padding-left: 2.1527vw;
     }
-    .cards__element:nth-child(3) .cards__header{
+
+    .cards__element:nth-child(3) .cards__header {
         padding-left: 2.777vw;
     }
-    .cards__element:nth-child(3) .cards__title{
+
+    .cards__element:nth-child(3) .cards__title {
         padding-left: 2.777vw;
     }
-    
-    
-  
+
+
+
+}
+
+.order {
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .order__header {
+            color: rgb(27, 27, 29);
+            font-family: Jost;
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 70px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        .order__text {
+            color: rgb(100, 100, 106);
+            font-family: Jost;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        .button {
+            margin-top: 30px;
+            &__container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 126px;
+                background: rgb(27, 27, 29);
+                height: 70px;
+                width: 13.263vw;
+            }
+
+            &__text {
+                color: rgb(255, 255, 255);
+                font-family: Jost;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-transform: uppercase;
+            }
+        }
+    }
 }
