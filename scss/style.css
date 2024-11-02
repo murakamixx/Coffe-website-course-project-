@@ -492,7 +492,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 19px;
+  gap: 24px;
 }
 .bestSellings__header {
   color: rgb(27, 27, 29);
@@ -514,9 +514,6 @@ a {
   width: 41.94vw;
 }
 .bestSellings .bestSellings__container {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   margin-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,7 +539,6 @@ a {
   background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
 }
 .bestSellings .bestSellings__container .container__card .card__text {
-  margin-right: 7px;
   width: 22.708vw;
   color: rgb(100, 100, 106);
   font-family: Jost;
@@ -556,13 +552,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
 }
 .bestSellings .top .container {
-  margin-top: 69px;
-  margin-right: 12px;
   padding-right: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -595,10 +590,7 @@ a {
   text-align: left;
 }
 .bestSellings .bottom {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  margin-top: 17px;
+  margin-top: 16px;
   padding-bottom: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -612,7 +604,6 @@ a {
   gap: 63px;
 }
 .bestSellings .bottom__header {
-  margin-bottom: 17px;
   color: rgb(27, 27, 29);
   font-family: Jost;
   font-size: 30px;
@@ -622,7 +613,6 @@ a {
   text-align: left;
 }
 .bestSellings .bottom__button .button_container {
-  margin-bottom: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -649,7 +639,7 @@ a {
 }
 
 .application {
-  margin-top: 116px;
+  margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -659,16 +649,8 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  overflow: hidden;
-}
-.application .application__img {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin-right: 8px;
 }
 .application__container {
-  margin-right: -40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
