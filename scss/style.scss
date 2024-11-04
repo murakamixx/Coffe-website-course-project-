@@ -564,14 +564,13 @@ a {
     margin-top: 116px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     overflow: hidden;
     .application__img{
         width: fit-content;
-        margin-right: 8px;
+        margin-left: 58px;
     }
     &__container {
-        margin-right: -40px;
+        margin-left: 140px;
         display: flex;
         flex-direction: column;
         gap: 30px;
