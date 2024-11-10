@@ -454,7 +454,7 @@ a {
         margin-top: 70px;
         display: flex;
         gap: 31px;
-        
+
         .container__card {
             display: flex;
             flex-direction: column;
@@ -466,7 +466,7 @@ a {
             background: linear-gradient(135.00deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
 
             .card__text {
-                margin-right: 7px ;
+                margin-right: 7px;
                 width: 22.708vw;
                 color: rgb(100, 100, 106);
                 font-family: Jost;
@@ -483,9 +483,10 @@ a {
     .top {
         display: flex;
         justify-content: flex-start;
+
         .container {
             margin-top: 69px;
-            margin-right:12px ;
+            margin-right: 12px;
             padding-right: 30px;
             display: flex;
             flex-direction: column;
@@ -565,15 +566,18 @@ a {
     display: flex;
     align-items: center;
     overflow: hidden;
-    .application__img{
+
+    .application__img {
         width: fit-content;
         margin-left: 58px;
     }
+
     &__container {
         margin-left: 140px;
         display: flex;
         flex-direction: column;
         gap: 30px;
+
         .container__header {
             color: rgb(27, 27, 29);
             font-family: Jost;
@@ -621,5 +625,141 @@ a {
             }
         }
 
+    }
+}
+
+.reviews {
+    margin-top: 80px;
+    display: flex;
+    overflow: hidden;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .text {
+        &__buttons {
+            margin-top: 60px;
+            display: flex;
+            gap: 24px;
+        }
+
+        .buttons {
+            .element {
+                &__container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+                    background: rgb(255, 255, 255);
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        margin-left: 105px;
+
+        &__header {
+            color: rgb(27, 27, 29);
+            font-family: Jost;
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 70px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        &__middle {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .middle {
+            &__mark {
+                color: rgb(27, 27, 29);
+                font-family: Jost;
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 40px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            &__container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+
+            .container {
+                &__text {
+                    color: rgb(100, 100, 106);
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    &__cards {
+        display: flex;
+        gap: 32px;
+        margin-left: -185px;
+    }
+
+    .cards {
+        &__container {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            align-items: center;
+            width: fit-content;
+            height: 648px;
+            border-radius: 16px;
+            box-shadow: 0px 20px 60px 0px rgba(163, 168, 179, 0.15);
+            background: linear-gradient(135.00deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        .container {
+
+            &__middle {
+                margin-top: 8px;
+                display: flex;
+                align-self: flex-start;
+                margin-left: 40px;
+                gap: 18px;
+
+                .middle__header {
+                    color: rgb(27, 27, 29);
+                    font-family: Jost;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+
+            &__text {
+                width: 387px;
+                color: rgb(27, 27, 29);
+                font-family: Jost;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
     }
 }
