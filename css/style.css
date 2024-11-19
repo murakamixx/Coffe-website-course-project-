@@ -725,6 +725,7 @@ a {
 
 .reviews {
   margin-top: 80px;
+  margin-bottom: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -872,4 +873,397 @@ a {
   line-height: 30px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.contacts {
+  margin-right: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contacts__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 15.76vw;
+}
+.contacts__down .down__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.contacts__down .down__contact .contact__button {
+  padding: 20px 40px 20px 40px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  width: 173px;
+  height: 70px;
+  border-radius: 126px;
+  background: rgb(27, 27, 29);
+}
+.contacts__down .down__contact .contact__header {
+  color: rgb(27, 27, 29);
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__down .down__contact .contact__input {
+  outline: none;
+  padding-left: 30px;
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 413px;
+  height: 70px;
+  border: none;
+  border-radius: 65px;
+  -webkit-box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+          box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+  background: rgb(255, 255, 255);
+}
+.contacts__down .down__contact .contact__input::-webkit-input-placeholder {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.contacts__down .down__contact .contact__input::-moz-placeholder {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.contacts__down .down__contact .contact__input:-ms-input-placeholder {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.contacts__down .down__contact .contact__input::-ms-input-placeholder {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.contacts__down .down__contact .contact__input::placeholder {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.contacts__down .down__contact .contact__input:active {
+  border: none;
+}
+.contacts__down .down__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.contacts__down .down__location .location__header {
+  color: rgb(27, 27, 29);
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__down .down__location .location__text {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 558px;
+}
+.contacts__down .down__location .location__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+.contacts__down .down__location .location__link .link__text {
+  color: rgb(27, 27, 29);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.contacts__up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15.76vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.contacts__up .up__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 40px;
+  width: 38.75vw;
+}
+.contacts__up .up__description .description__text {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__up .up__description .description__img {
+  width: 307px;
+}
+.contacts__up .up__social {
+  width: 443px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+.contacts__up .up__social .social__header {
+  margin-top: 20px;
+  color: rgb(27, 27, 29);
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__up .up__social .up__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+.contacts__up .up__social .up__email .email__text {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__up .up__social .up__email .email__link .link__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+          box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.contacts__up .up__social .up__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+.contacts__up .up__social .up__phone .phone__text {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__up .up__social .up__phone .phone__link .link__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+          box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.contacts__up .up__social .up__networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+.contacts__up .up__social .up__networks .networks__link .networks__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+          box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.footer {
+  margin-top: 69.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__wrapper {
+  color: rgb(27, 27, 29);
+  width: 86.11vw;
+  height: 0;
+  border: 1px solid rgb(27, 27, 29);
+  opacity: 0.1;
+}
+.footer__container {
+  margin-top: 40px;
+  margin-bottom: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 41.11vw;
+}
+.footer__container .container__text {
+  color: rgb(100, 100, 106);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__container .container__text a:nth-child(1) {
+  margin-right: 12px;
+}
+.footer__container .container__text a {
+  color: rgb(100, 100, 106);
+  font-size: 22px;
+  font-weight: 400;
+}
+.footer__container .container__header {
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__container .container__header span {
+  color: rgb(100, 100, 106);
 }

@@ -630,6 +630,7 @@ a {
 
 .reviews {
     margin-top: 80px;
+    margin-bottom: 210px;
     display: flex;
     overflow: hidden;
 
@@ -755,6 +756,313 @@ a {
                 color: rgb(27, 27, 29);
                 font-family: Jost;
                 font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.contacts {
+    margin-right: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+
+    &__down {
+        display: flex;
+        justify-content: space-around;
+        gap: 15.76vw;
+
+        .down__contact {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: flex-start;
+
+            .contact__button {
+                padding: 20px 40px 20px 40px;
+                color: rgb(255, 255, 255);
+                font-family: Jost;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-transform: uppercase;
+                width: 173px;
+                height: 70px;
+                border-radius: 126px;
+                background: rgb(27, 27, 29);
+            }
+
+            .contact__header {
+                color: rgb(27, 27, 29);
+                font-family: Jost;
+                font-size: 40px;
+                font-weight: 800;
+                line-height: 50px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            .contact__input {
+                outline: none;
+                padding-left: 30px;
+                color: rgb(100, 100, 106);
+                font-family: Jost;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;
+                width: 413px;
+                height: 70px;
+                border: none;
+                border-radius: 65px;
+                box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+                background: rgb(255, 255, 255);
+            }
+
+            .contact__input::placeholder {
+                color: rgb(100, 100, 106);
+                font-family: Jost;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;
+                opacity: 0.7;
+            }
+
+            .contact__input:active {
+                border: none;
+            }
+        }
+
+        .down__location {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: flex-start;
+
+            .location__header {
+                color: rgb(27, 27, 29);
+                font-family: Jost;
+                font-size: 40px;
+                font-weight: 800;
+                line-height: 50px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            .location__text {
+                color: rgb(100, 100, 106);
+                font-family: Jost;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 0%;
+                text-align: left;
+                width: 558px;
+            }
+
+            .location__link {
+                display: flex;
+                gap: 4px;
+
+                .link__text {
+                    color: rgb(27, 27, 29);
+                    font-family: Jost;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    &__up {
+        display: flex;
+        gap: 15.76vw;
+        justify-content: space-around;
+
+        .up__description {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 40px;
+            width: 38.75vw;
+
+            .description {
+                &__text {
+                    color: rgb(100, 100, 106);
+                    font-family: Jost;
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+
+                &__img {
+                    width: 307px;
+                }
+            }
+        }
+
+        .up__social {
+            width: 443px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .social__header {
+                margin-top: 20px;
+                color: rgb(27, 27, 29);
+                font-family: Jost;
+                font-size: 40px;
+                font-weight: 800;
+                line-height: 50px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            .up__email {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .email__text {
+                    color: rgb(100, 100, 106);
+                    font-family: Jost;
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 44px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+
+                .email__link {
+                    .link__container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+                        background: rgb(255, 255, 255);
+                        border-radius: 50%;
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+
+            .up__phone {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .phone__text {
+                    color: rgb(100, 100, 106);
+                    font-family: Jost;
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 44px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+
+                .phone__link {
+                    .link__container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+                        background: rgb(255, 255, 255);
+                        border-radius: 50%;
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+
+            .up__networks {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .networks__link {
+                    .networks__container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+                        background: rgb(255, 255, 255);
+                        border-radius: 50%;
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: 69.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__wrapper {
+        color: rgb(27, 27, 29);
+        width: 86.11vw;
+        height: 0;
+        border: 1px solid rgb(27, 27, 29);
+        opacity: 0.1;
+
+    }
+
+    &__container {
+        margin-top: 40px;
+        margin-bottom: 41px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 41.11vw;
+        .container {
+
+            &__text {
+                a:nth-child(1){
+                    margin-right: 12px;
+                }
+                a{
+                    color: rgb(100, 100, 106);
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+                color: rgb(100, 100, 106);
+                font-family: Jost;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            &__header {
+                span {
+                    color: rgb(100, 100, 106);
+                }
+
+                font-family: Jost;
+                font-size: 22px;
                 font-weight: 400;
                 line-height: 30px;
                 letter-spacing: 0%;
