@@ -1036,17 +1036,20 @@ a {
         justify-content: space-between;
         align-items: center;
         gap: 41.11vw;
+
         .container {
 
             &__text {
-                a:nth-child(1){
+                a:nth-child(1) {
                     margin-right: 12px;
                 }
-                a{
+
+                a {
                     color: rgb(100, 100, 106);
                     font-size: 22px;
                     font-weight: 400;
                 }
+
                 color: rgb(100, 100, 106);
                 font-family: Jost;
                 font-size: 22px;
@@ -1071,24 +1074,43 @@ a {
         }
     }
 }
-@media (min-width:1440px){
-    .main{
+
+@media (min-width:1441px) {
+    .main {
         justify-content: center;
     }
-    p.cards__title{
+
+    p.cards__title {
         width: 470px;
     }
-    .cards__element{
+
+    .cards__element {
         justify-content: space-between;
     }
-    .order{
+
+    .order {
         justify-content: space-around;
     }
-    .bestSellings{
-        .bestSellings__container{
-            .container__card{
+
+    .bestSellings {
+        .bestSellings__container {
+            .container__card {
                 width: 27.29vw;
             }
+        }
+    }
+}
+
+@media(max-width: 1400px) {
+    .main{
+        justify-content: center;
+        .text__header{
+            font-size: 90px;
+        }
+    }
+    .main__picture {
+        img {
+            width: 46.1vw;
         }
     }
 }

@@ -1268,7 +1268,7 @@ a {
   color: rgb(100, 100, 106);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
   .main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1288,5 +1288,18 @@ a {
   }
   .bestSellings .bestSellings__container .container__card {
     width: 27.29vw;
+  }
+}
+@media (max-width: 1400px) {
+  .main {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .text__header {
+    font-size: 90px;
+  }
+  .main__picture img {
+    width: 46.1vw;
   }
 }
