@@ -295,7 +295,7 @@ a {
             font-weight: 400;
             line-height: 35px;
             text-align: left;
-            width: 22.0833vw;
+            width: 357px;
         }
 
         &__image {
@@ -1067,6 +1067,27 @@ a {
                 line-height: 30px;
                 letter-spacing: 0%;
                 text-align: left;
+            }
+        }
+    }
+}
+@media (min-width:1440px){
+    .main{
+        justify-content: center;
+    }
+    p.cards__title{
+        width: 470px;
+    }
+    .cards__element{
+        justify-content: space-between;
+    }
+    .order{
+        justify-content: space-around;
+    }
+    .bestSellings{
+        .bestSellings__container{
+            .container__card{
+                width: 27.29vw;
             }
         }
     }

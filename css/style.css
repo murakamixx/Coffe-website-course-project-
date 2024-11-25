@@ -348,7 +348,7 @@ a {
   font-weight: 400;
   line-height: 35px;
   text-align: left;
-  width: 22.0833vw;
+  width: 357px;
 }
 .explore .cards__image {
   width: 10.41666vw;
@@ -1266,4 +1266,27 @@ a {
 }
 .footer__container .container__header span {
   color: rgb(100, 100, 106);
+}
+
+@media (min-width: 1440px) {
+  .main {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  p.cards__title {
+    width: 470px;
+  }
+  .cards__element {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .order {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .bestSellings .bestSellings__container .container__card {
+    width: 27.29vw;
+  }
 }
