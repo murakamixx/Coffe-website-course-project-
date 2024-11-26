@@ -267,7 +267,7 @@ a {
         &__element {
             padding-top: 40px;
             padding-bottom: 40px;
-            width: 27.291vw;
+            width: 392px;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -295,7 +295,7 @@ a {
             font-weight: 400;
             line-height: 35px;
             text-align: left;
-            width: 357px;
+            width: 318px;
         }
 
         &__image {
@@ -767,12 +767,16 @@ a {
 
 .contacts {
     margin-right: 13px;
+    padding-left: 7.361vw;
+    padding-right: 7.361vw;
     display: flex;
     flex-direction: column;
     gap: 90px;
     align-items: center;
+    justify-content: space-between;
 
     &__down {
+        width: 1227px;
         display: flex;
         justify-content: space-around;
         gap: 15.76vw;
@@ -892,6 +896,7 @@ a {
         display: flex;
         gap: 15.76vw;
         justify-content: space-around;
+        width: 1227px;
 
         .up__description {
             display: flex;
@@ -909,6 +914,7 @@ a {
                     line-height: 40px;
                     letter-spacing: 0%;
                     text-align: left;
+                    width: 558px;
                 }
 
                 &__img {
@@ -1090,6 +1096,7 @@ a {
 
     .order {
         justify-content: space-around;
+
     }
 
     .bestSellings {
@@ -1099,9 +1106,23 @@ a {
             }
         }
     }
+    .application{
+        justify-content: center;
+    }
+    .reviews__text.text{
+        margin-left: 7.291vw;
+    }
 }
 
 @media(max-width: 1400px) {
+    .order{
+        .order__container{
+            padding-right: 0;
+        }
+        .order__image{
+            width: 56.041vw;
+        }
+    }
     .main{
         justify-content: center;
         .text__header{
@@ -1113,4 +1134,255 @@ a {
             width: 46.1vw;
         }
     }
+}
+@media(max-width: 1277px){
+    
+    .main {
+        justify-content: center;
+    
+        .text {
+padding-left: 0;
+            .links {
+                .button {
+                    &__text {
+                        font-size: 14px;
+    
+                    }
+                }
+            }
+        }
+    }
+    .link__container__black{
+        p{
+            font-size: 10px !important;
+        }
+    }
+    .explore{
+        .cards {
+            &__element {
+                width: 300px;
+            }
+    
+            &__header {
+                font-size: 32px;
+            }
+    
+            &__title {
+                font-size: 20px;
+                width: 250px;
+            }
+            .button {
+                
+                &__container {
+                    width: 17.625vw;
+   
+                }
+    
+                &__text {
+                    font-size: 14px;
+                }
+        }
+    }
+}
+.order{
+    .order__container{
+    .button{
+        .button__container{
+            width: 17.263vw;
+        }
+        .button__text{
+            font-size: 14px;
+        }
+    }
+    }
+}
+    .bestSellings {
+        .bestSellings__container {
+            .container__card {
+                padding: 10px 10px 10px 10px;
+                width: 300px;
+                .card__bottom{
+                    justify-content: flex-start;
+                    gap: 30px;
+                    .button{
+                        .container{
+                            .container__text{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+    
+        .top {
+            &_img{
+                width: 14.3vw;
+            }
+        }
+}
+.application{
+    margin-bottom: 150px;
+    .container{
+        .button{
+            .container{
+                .container__text{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.application__img{
+    width: 40.48vw !important;
+}
+.reviews {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    gap: 50px;
+    .text{
+ margin-left: 0;
+    }
+    .cards {
+        &__container {
+            width: 368px;
+        }
+
+        .container {
+            &__img{
+                width: 368px;
+                padding: 10px 10px 10px 10px;
+                overflow: hidden;
+            }
+            &__middle {
+                margin: 0;
+                margin-left: 20px;
+            }
+
+            &__text {
+                font-size: 18px;
+                width: 325px;
+            }
+        }
+    }
+}
+.contacts {
+padding:0 50px 0 50px;
+    &__down {
+        width: 83.33vw;
+        gap: 60px;
+        justify-content: space-around;
+
+        .down__contact {
+            width: 400px;
+
+            .contact__button {
+
+            }
+
+            .contact__header {
+                font-size: 35px;
+            }
+
+            .contact__input {
+                width: 300px;
+            }
+
+            .contact__input::placeholder {
+
+            }
+
+            .contact__input:active {
+            }
+        }
+
+        .down__location {
+            width: 400px;
+            .location__header {
+                font-size: 35px;
+            }
+
+            .location__text {
+                font-size: 25px;
+                width: 400px;
+            }
+
+            .location__link {
+                .link__text {
+
+                }
+            }
+        }
+    }
+
+    &__up {
+        width: 83.33vw;
+        justify-content: space-between;
+        gap: 60px;
+        .up__description {
+            width: 400px;
+            .description {
+                &__text {
+                    font-size: 25px;
+                    width: 400px
+                }
+
+                &__img {
+
+                }
+            }
+        }
+
+        .up__social {
+            width: 400px;
+            .social__header {
+                font-size: 35px;
+            }
+
+            .up__email {
+
+                .email__text {
+                    font-size: 25px;
+                }
+
+                .email__link {
+                    .link__container {
+
+                    }
+                }
+            }
+
+            .up__phone {
+
+                .phone__text {
+                    font-size: 25px;
+                }
+
+                .phone__link {
+                    .link__container {
+      
+                    }
+                }
+            }
+
+            .up__networks {
+      
+
+                .networks__link {
+                    .networks__container {
+        
+                    }
+                }
+            }
+        }
+    }
+}
+.footer{
+    .footer__container{
+        gap: 300px;
+    }
+}
+
 }
