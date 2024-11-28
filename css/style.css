@@ -751,7 +751,7 @@ a {
   display: flex;
   gap: 24px;
 }
-.reviews .text .buttons .element__container {
+.reviews .text .buttons__element {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -761,12 +761,24 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: none;
   -webkit-box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
           box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
   background: rgb(255, 255, 255);
   height: 60px;
   width: 60px;
   border-radius: 50%;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+.reviews .text .buttons__element:hover {
+  cursor: pointer;
+}
+.reviews .text .buttons__element:active {
+  cursor: pointer;
+  background: rgb(210, 210, 210);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 .reviews .text__header {
   color: rgb(27, 27, 29);
@@ -844,6 +856,10 @@ a {
   -webkit-box-shadow: 0px 20px 60px 0px rgba(163, 168, 179, 0.15);
           box-shadow: 0px 20px 60px 0px rgba(163, 168, 179, 0.15);
   background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 .reviews .cards .container__middle {
   margin-top: 8px;
@@ -1380,6 +1396,12 @@ a {
   }
   .application {
     margin-bottom: 150px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .application .container {
+    margin-left: 0;
   }
   .application .container .button .container .container__text {
     font-size: 14px;
@@ -1470,5 +1492,67 @@ a {
   }
   .footer .footer__container {
     gap: 300px;
+  }
+}
+@media (max-width: 1054px) {
+  .bestSellings .bestSellings__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bestSellings .bestSellings__container .container__card {
+    width: 80vw;
+  }
+  .bestSellings .bestSellings__container .container__card .card__bottom {
+    width: 50vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .bestSellings .bestSellings__container .container__card .card__bottom .button .container {
+    width: 20vw;
+  }
+  .bestSellings .bestSellings__container .container__card .card__bottom .button .container .container__text {
+    font-size: 14px;
+  }
+  .bestSellings .bestSellings__container .container__card .card__text {
+    width: 60vw;
+    font-size: 25px;
+    text-align: center;
+  }
+  .bestSellings .bestSellings__container .top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80vw;
+  }
+  .bestSellings .bestSellings__container .top .container {
+    gap: 16px;
+  }
+  .bestSellings .bestSellings__container .top .container .container__header {
+    font-size: 45px;
+  }
+  .bestSellings .bestSellings__container .top .container .container__text {
+    font-size: 30px;
+  }
+  .bestSellings .bestSellings__container .top_img {
+    width: 20vw;
+  }
+  .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .reviews__cards {
+    margin-left: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .reviews__text {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
