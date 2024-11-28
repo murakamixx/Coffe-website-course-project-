@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Jost";
+    src: url(../fonts/Jost-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+.text__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container__error{
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 60px;
+}
+.container__description{
+    font-family: Jost;
+    font-weight: 300;
+}

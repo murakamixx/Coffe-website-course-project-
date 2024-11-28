@@ -1289,9 +1289,6 @@ padding:0 50px 0 50px;
         .down__contact {
             width: 400px;
 
-            .contact__button {
-
-            }
 
             .contact__header {
                 font-size: 35px;
@@ -1301,12 +1298,6 @@ padding:0 50px 0 50px;
                 width: 300px;
             }
 
-            .contact__input::placeholder {
-
-            }
-
-            .contact__input:active {
-            }
         }
 
         .down__location {
@@ -1318,12 +1309,6 @@ padding:0 50px 0 50px;
             .location__text {
                 font-size: 25px;
                 width: 400px;
-            }
-
-            .location__link {
-                .link__text {
-
-                }
             }
         }
     }
@@ -1339,10 +1324,6 @@ padding:0 50px 0 50px;
                     font-size: 25px;
                     width: 400px
                 }
-
-                &__img {
-
-                }
             }
         }
 
@@ -1357,34 +1338,12 @@ padding:0 50px 0 50px;
                 .email__text {
                     font-size: 25px;
                 }
-
-                .email__link {
-                    .link__container {
-
-                    }
-                }
             }
 
             .up__phone {
 
                 .phone__text {
                     font-size: 25px;
-                }
-
-                .phone__link {
-                    .link__container {
-      
-                    }
-                }
-            }
-
-            .up__networks {
-      
-
-                .networks__link {
-                    .networks__container {
-        
-                    }
                 }
             }
         }
