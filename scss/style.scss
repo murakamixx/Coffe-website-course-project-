@@ -1600,19 +1600,16 @@ padding:0 50px 0 50px;
 }
 @media(max-width:768px){
     .header{
+        .navigation__logo{
+            width: 15.7vw;
+        }
         .navigation__list{
             margin-left: 5.54vw;
         }
         .navigation{
             padding-left: 20px;
             padding-right: 20px;
-            gap: 30vw;
-        }
-        .link__container{
-            display: none !important;
-        }
-        .link__container__black{
-            display: none !important;
+            gap: 13vw;
         }
     }
     .main{
@@ -1652,12 +1649,18 @@ padding:0 50px 0 50px;
         }
     }
     .explore{
+        .cards__element{
+            width: 80vw;
+            .cards__title{
+                width: 60vw;
+            }
+        }
         .cards__image{
             width: 22vw;
         }
         .cards{
             .button__container{
-                width:38vw;
+                width:52vw;
             }
         }
         .explore__header{
@@ -1719,6 +1722,16 @@ padding:0 50px 0 50px;
     .bestSellings{
         .bestSellings__container{
             .container__card{
+                align-items: center;
+                .card__bottom{
+                    width: 80vw;
+                    justify-content: space-around;
+                    .button{
+                        .container{
+                            width: 39vw;
+                        }
+                    }
+                }
                 .card__text{
                     font-size: 18px;
                 }
@@ -1801,7 +1814,7 @@ padding:0 50px 0 50px;
     }
     .header{
         .navigation__logo{
-            display: none !important;
+         
         }
     }
     .main{
@@ -1831,6 +1844,13 @@ padding:0 50px 0 50px;
         }
         .cards__container{
             width: 81vw;
+        }
+    }
+    .contacts{
+        .contacts__up{
+            .up__description{
+                width: 80vw;
+            }
         }
     }
 }
